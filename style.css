@@ -1,0 +1,83 @@
+:root {
+    --success-gradient-color-left:  #69ECAB;
+    --success-gradient-color-right:  #4ECCC8;
+    --information-gradient-color-left: #B0E5FF;
+    --information-gradient-color-right: #75B8EE;
+    --buy-now-gradient-color-left: #B1C1FF;
+    --buy-now-gradient-color-right: #AF8CF1;
+    --warning-gradient-color-left: #FED699;
+    --warning-gradient-color-right: #FEA462;
+    --contact-gradient-color-left: #FEC5AE;
+    --contact-gradient-color-right: #EC7574;
+    --delete-gradient-color-left: #FFAAB7;
+    --delete-gradient-color-right: #F5879E;
+}
+
+
+.buttons__wrap{
+    margin: auto;
+    width: fit-content;
+}
+.button{
+    width: 20%;
+    display: inline-block;
+    text-align: center;
+    padding: 30px 50px;
+    margin: 50px 50px;
+    border-radius: 10px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    font-weight: bold;
+    font-family: Roboto;
+    color:white
+}
+
+.button__success--green {
+    background:linear-gradient(to right,var(--success-gradient-color-left), var(--success-gradient-color-right) );
+    box-shadow:  0 10px 50px -20px var(--success-gradient-color-left),  0 10px 50px -20px var(--success-gradient-color-right);
+}
+.button__information--blue {
+    background:linear-gradient(to right,var(--information-gradient-color-left), var(--information-gradient-color-right) );
+    box-shadow:  0 10px 50px -20px var(--information-gradient-color-left),  0 10px 50px -20px var(--information-gradient-color-right);
+}
+.button__buy-now--purple {
+    background:linear-gradient(to right,var(--buy-now-gradient-color-left), var(--buy-now-gradient-color-right) );
+    box-shadow:  0 10px 50px -20px var(--buy-now-gradient-color-left),  0 10px 50px -20px var(--buy-now-gradient-color-right);
+}
+.button__warning--yellow {
+    background:linear-gradient(to right,var(--warning-gradient-color-left), var(--warning-gradient-color-right) );
+    box-shadow:  0 10px 50px -20px var(--warning-gradient-color-left),  0 10px 50px -20px var(--warning-gradient-color-right);
+}
+.button__contact--peach {
+    background:linear-gradient(to right,var(--contact-gradient-color-left), var(--contact-gradient-color-right) );
+    box-shadow:  0 10px 50px -20px var(--contact-gradient-color-left),  0 10px 50px -20px var(--contact-gradient-color-right);
+}
+.button__delete--red {
+    background:linear-gradient(to right,var(--delete-gradient-color-left), var(--delete-gradient-color-right) );
+    box-shadow:  0 10px 50px -20px var(--delete-gradient-color-left),  0 10px 50px -20px var(--delete-gradient-color-right);
+}
+
+
+.text__wrapper{
+    width: 100vw;
+    height: 200px;
+    text-align: center;
+}
+
+.text--gradient{
+    font-family: roboto;
+    text-transform: uppercase;
+    font-size: 200px;
+    font-weight: bolder;
+    background-image: linear-gradient(145deg, #FDD464, #F11097);
+    background-clip: text;
+    -webkit-background-clip: text; /* For Safari */
+    color: transparent
+}
+
+.text--width-100px{
+    width: 100px;
+    text-wrap: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
