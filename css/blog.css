@@ -11,6 +11,8 @@
     background-color: #FFFDF4;
 }
 
+
+
 .blog-title-wrapper{
     width: 85%;
     height: 80%;
@@ -56,9 +58,14 @@
     box-sizing: content-box;
 }
 
+img{
+    width: 100%;
+    object-fit: contain;
+}
+
 .blog--thumbnail{
     overflow: hidden;
-    height: 200px;
+    height: 267px;
     margin-bottom: 18px;
 }
 
